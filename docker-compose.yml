@@ -7,10 +7,10 @@ services:
       container_name: fsb
       environment:
       # required
-       - API_ID=0 # change this to your ID
-       - API_HASH=e83e839202 # change this to your HASH
-       - BOT_TOKEN=token # enter your bot token
-       - BIN_CHANNEL=ID # paste channel ID
+       - API_ID=25955676 # change this to your ID
+       - API_HASH=0db6eab47e75645bc92f018bc62e665c # change this to your HASH
+       - BOT_TOKEN=6137567682:AAHoliJae5XjBjxjRW2pxNRdiW9YZTwVKMk # enter your bot token
+       - BIN_CHANNEL=-1001896081617 # paste channel ID
       ports:
        - 127.0.0.1:8000:8000
       volumes:
